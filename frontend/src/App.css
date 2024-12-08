@@ -1,0 +1,21 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+.div1 {
+  flex-wrap: wrap;
+  background-color: aquamarine;
+  color: black;
+  font-size: medium;
+  
+}
+
+
+base {
+  background-color: aqua;
+  padding: 1rem;
+  
+}
