@@ -9,6 +9,7 @@ import Register from './page/Register';
 import Profile from './page/Profile';
 import Login from './page/Login';
 import About from './page/About';
+import Recepies from './page/Recepies';
 import axios from 'axios';
 import { UserContextProvider } from '../context/userContext';
 
@@ -28,7 +29,8 @@ function App() {
         <Route path='/register' element={<Register />} />
         <Route path='/login' element={<Login />} />
         <Route path='/profile' element={<Profile />} />
-        <Route path='/About' element={<About />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/recepies' element={<Recepies />} />
       </Routes>    
     </UserContextProvider>
       

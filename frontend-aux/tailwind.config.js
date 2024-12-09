@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {'my-food': "url('img/food.png')"}
+      backgroundImage: {'my-b': "url('img/background.jpg')"},
+
     },
   },
   plugins: [],
